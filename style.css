@@ -328,7 +328,7 @@ nav .fas{
     background-image: url(images/background.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 10%;
         font-size: 30px;
     }
     .header-text h1{
