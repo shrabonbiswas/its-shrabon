@@ -66,7 +66,33 @@ nav ul li a:hover::after{
 .header-text span{
 color: #ff004f;
 }
+/* Notice box styling */
+.notice {
+    padding: 20px;
+    background-color: #f9edbe; /* Light yellow background */
+    border-left: 6px solid #f0c36d; /* Darker yellow border */
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
+/* Close button styling */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.closebtn:hover {
+    color: #000;
+}
 /*-------------about-------------*/
 #about{
     padding: 88px 0;
