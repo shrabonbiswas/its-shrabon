@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9ff94cf075.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                
+                    <p>Hello, I'm <span>Shrabon Biswas</span><br> From Chittagong</p>
+                    <h1>Android Developer</h1>
+                </div>
+            </div>
+        </div>
+        <!-------------about------------->
+<div id="about">
+    <div class="contaner">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate B.Sc. student in Computer Science and Engineering at Port City International University, with a growing expertise in Android development using Kotlin. I thrive on learning and implementing innovative solutions, continuously expanding my skills in modern mobile development practices.
+
+                    My academic foundation in CSE, combined with a dedication to mastering Kotlin, positions me to contribute effectively to dynamic development teams and impactful projects. I am eager to connect with like-minded professionals and explore opportunities to create user-friendly and efficient mobile applications.
+                    
+                    Let’s connect and build the future, one app at a time!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Android Developing</span><br>Building Android apps</li>
+                            <li><span>Web Developing</span><br>Web app Developing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Kotlin</span><br>I am Still learning</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Port City International University</li>
+                            <li><span>2018-2020</span><br>Rangunia Government College</li>
+                            <li><span>2012-2018</span><br>Chandraghona M.M. High School </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Developing</h2>
+                <p>Currnetly I am upgrading Myself</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developing</h2>
+                <p>I am working on it</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Ui/UX</h2>
+                <p>upgrading</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-------Portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project1.png">
+                <div class="layer">
+                    <h3>It was my Uni project</h3>
+                    <p>In this project all the thing about vehicle details. Vehicle owner data,driver and vehicle data will store in database.I'm Still working on this project.if you want to know more about it click on know more</p>
+                    <a href="#">Know more</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Picture2.png">
+            </div>
+            <div class="work">
+                <img src="images/Picture3.png">
+            </div>
+    </div>
+</div>
+
+<!----Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-envelope"></i>shrabon276@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01830325855</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shrabon.biswas.80362"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="www.linkedin.com/in/
+                    shrabon-biswas-7a390a1a2"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shrabon.biswas_?igsh=YmQ3MWo1dGYzOTJu"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href=""class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>Copyright shrabon</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+    </body>
+</html>
